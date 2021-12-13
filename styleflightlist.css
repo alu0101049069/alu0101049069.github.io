@@ -1,0 +1,267 @@
+body{
+    font-family: Jockey one;
+    background-color: #2C3335;
+    color:black;
+    margin-left: 50px;
+    word-spacing: 85px;
+  }
+
+
+  p{
+    word-spacing: 20px;
+    display: inline;
+  }
+  
+  .container-fluid{
+     padding: 0px;
+  }
+
+  
+  .myHeader{
+    padding: 10px;
+    background-color: #1D2021;
+    color:#0AB5D4;
+    padding-top: 25px;
+  }
+  
+  h1{
+    font-size: 50px;
+  }
+  
+  .flightList{
+    background-color: #474D4F;
+    padding: 20px;
+    border-radius:12px
+  }
+  
+  h3{
+    padding:15px;
+    color:#EEF1F2;
+    padding-bottom: 25px;
+    font-size: 35px;
+    word-spacing: 10px;
+  }
+  
+  .flightHeader{
+    background:#555E5F;
+    padding: 10px;
+    border-radius:12px;
+    color:#0AB5D4;
+  }
+  .flightsMain{
+    padding-top: 25px;
+    color:white;
+    word-spacing: 90px;
+  }
+  
+  .flight{
+    padding:5px;
+    margin: 10px;
+    border-color: #98A0A2;
+  }
+
+  .button{
+    border: none;
+	color: black;
+	border-radius: 50%;
+	padding: 16px 32px;
+	text-align: justify;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  
+  flight:hover{
+    opacity: 0.6;
+  }
+  
+  .flight {
+  transition: .5s;
+  opacity: 1;
+    border:1px;
+    border-style:solid;
+    border-radius:20px;
+      border-color: #98A0A2;
+  }
+
+  .buttonflight{
+   display: inline;
+   justify-content: center;
+   text-align: center;
+  
+   margin-left: 0px;
+   width: 10%;
+   
+
+   
+   
+  }
+  .flight:hover {
+    background-color: #202627;
+    color:white;
+    transform:scale(1.1);
+    padding:20px;
+  }
+  
+  .inputs{
+    
+    background-color: #474D4F;
+    padding: 20px;
+    border-radius:12px;
+    color:#EEF2F2;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+  }
+  
+  input{
+    border-radius:10px;
+    border:2px;
+    margin:2px;
+  }
+  
+  .myFooter{
+    margin-top: 40px;;
+    padding: 10px;
+    background-color: #1D2021;
+    color:#0AB5D4;
+    padding-top: 25px;
+  }
+  
+  .myFooter p{
+    font-size: 25px;
+  }
+  
+  .flightcopy {
+  transition: .5s;
+  opacity: 1;
+    border:1px;
+    border-style:solid;
+    border-radius:20px;
+      border-color: #98A0A2;
+    padding:15px;
+  }
+  .flightcopy:hover {
+    background-color: #202627;
+    color:white;
+    transform:scale(1.1);
+    padding:20px;
+  }
+  
+  .inputs{
+    margin-top:30px;
+  }
+
+  .col-sm-2{
+      display: inline-block;
+      word-spacing: 50px;
+     
+  }
+  .rowflightHeader{
+    display: inline-block;
+    word-spacing: 70px;
+    margin-left: 30px;
+
+  }
+
+  @media (max-width: 1200px) {
+    .flightsMain{
+        padding-top: 25px;
+        word-spacing: 40px;
+      }
+      
+  
+    .rowflightHeader{
+       
+         word-spacing: 53px;
+        margin-left: 0px;
+        display:inline;
+        white-space: nowrap;
+    
+      }
+        .container .content {
+        display: inline;
+        border:none;
+        padding:0;
+        word-spacing:100px;
+        /* padding: 1rem; */
+        width: 0px;
+        height: 80px;
+    
+        }
+        
+         h3{
+        padding:15px;
+        color:#EEF1F2;
+        padding-bottom: 25px;
+        font-size: 20px;
+        display:inline;
+        word-spacing:10px;
+        text-align: justify;
+        justify-content: center;
+        
+      }
+      .myHeader{
+        padding: 0px;
+        word-spacing:40px;
+        background-color: #1D2021;
+        color:#0AB5D4;
+        justify-content: center;
+        display:inline;
+        text-size:20px;
+        text-align: justify;
+        align-items: center;
+        align-content: center;
+        padding-top: 0px;
+        
+    
+       }
+      
+      }
+    
+    
+    @media (max-width: 480px) {
+    .rowflightHeader{
+       
+        word-spacing: 10px;
+        margin-left: 0px;
+        display:inline;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+      }
+      
+       
+       
+       h3{
+        padding:15px;
+        color:#EEF1F2;
+        padding-bottom: 25px;
+        font-size: 20px;
+        display:inline;
+        word-spacing:10px;
+        text-align: justify;
+        justify-content: center;
+      }
+      
+    
+        .myHeader{
+        padding: 0px;
+        word-spacing:10px;
+        background-color: #1D2021;
+        color:#0AB5D4;
+        justify-content: center;
+        display:inline;
+        text-size:20px;
+        text-align: justify;
+        align-items: center;
+        align-content: center;
+        padding-top: 0px;
+       }
+    }
+      
+  

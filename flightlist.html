@@ -1,0 +1,181 @@
+<head>
+    <title>HC Airline Ticket Reservation System</title>
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+    <link rel="stylesheet" href="styleflightlist.css">
+  </head>
+  
+  <body>
+    <div class="maincontent overlay container-fluid">
+      <div class="myHeader">
+        <h1 class="text-center"> Airline Ticket Reservation System</h1>
+        
+      </div>
+      <br />
+      <br />
+      <div class="flightList container">
+        <h3 class=" choosehead text-center">Choose one of the following flights:</h3>
+        <div class="rowflightHeader">
+          <div class="col-sm-2">
+            <h4 class="text-center">Number</h4>
+          </div>
+          <div class="col-sm-2">
+            <h4 class="text-center"> Company</h4>
+          </div>
+          <div class="col-sm-2">
+            <h4 class="text-center">Origin</h4>
+          </div>
+          <div class="col-sm-2">
+            <h4 class="text-center">Destination</h4>
+          </div>
+          <div class="col-sm-2">
+            <h4 class="text-center">Price(Rs)</h4>
+          </div>
+        </div>
+        <div class="flightsMain">
+          <div class="allFlights">
+          
+             <div class="row flight 4563" id="4563">
+               
+            <div class="col-sm-2">
+              <h5 class="text-center1 ">9856742387</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center1 ">Iberia</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center1">Madrid</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center1">Prague</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center1">300</h5>
+            </div>
+            <form class ="buttonflight" method="POST" action="Submit.css" value="select">
+              <input type="button" onclick="location.href='confirmation.html';" value="Select" />
+              </form>
+          </div>
+          <div class="row flight 8205" id="8205">
+            <div class="col-sm-2">
+              <h5 class="text-center srno flightNo2">3462376421</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flno flightNo2">IndoGO</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flsrc flightNo2">Houston</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center fldst flightNo2">Tokio</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flprc flightNo2">1000</h5>
+            </div>
+            <form class ="buttonflight" method="POST" action="Submit.css" value="select">
+              <input type="button" onclick="location.href='confirmation.html';" value="Select" />
+              </form>
+          </div>
+          <div class="row flight 5455" id="5455">
+            <div class="col-sm-2">
+              <h5 class="text-center srno flightNo3">5784574325</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flno flightNo3">AirIndia</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flsrc flightNo3">Paris</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center fldst flightNo3">London</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flprc flightNo3">300</h5>
+            </div>
+            <form class ="buttonflight" method="POST" action="Submit.css" value="select">
+              <input type="button" onclick="location.href='confirmation.html';" value="Select" />
+              </form>
+          </div>
+          <div class="row flight 2853" id="2853">
+            <div class="col-sm-2">
+              <h5 class="text-center srno flightNo4">6843658764</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flno flightNo4">SpaceJet</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flsrc flightNo4">Berlin</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center fldst flightNo4">Moscow</h5>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center flprc flightNo4"> 225</h5>
+            </div>
+            <form class ="buttonflight" method="POST" action="Submit.css" value="select">
+              <input type="button" onclick="location.href='confirmation.html';" value="Select" />
+              </form>
+          </div>
+          
+      
+          
+      
+          
+         
+    <div class="container inputs my-3">
+      <form id="enterFlightNo">
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="text-left">Enter flight number you want to travel in:</p>
+          </div>
+          <div class="col-sm-4">
+            <input id="fNo" class="text-center" type="text" name="fnum" placeholder="Flight Number eg:4563"><br>
+          </div>
+        </div>
+      </form>
+      <div id="returnError"></div>
+      <form id="enterPassengers">
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="text-left">Enter number of passengers traveling:</p>
+          </div>
+          <div class="col-sm-4">
+            <input class="text-center" type="text" id="passNo" name="pnum" placeholder="No of passenger eg:2"><br>
+          </div>
+         
+        </div>
+      </form>
+      <div id="returnError2"></div>
+      <br />
+      
+      
+      <form id="pNames">       
+          <div id="passengerNames"></div>
+      </form>
+      
+      
+      
+      <form class="text-center" id="extraStuff">
+         <div class="form-check">
+      <label class="form-check-label">
+        <input id="Bclass" type="checkbox" class="form-check-input">
+        <p>Travel in Bussiness class (+ 5000 euros per passenger)</p>
+      </label>
+    </div>
+        <div class="form-check">
+      <label class="form-check-label">
+        <input id="getFood" type="checkbox" class="form-check-input">
+        <p>Include Food (+ 850 euros per passenger)</p>
+      </label>
+    </div>
+        
+        <div class="yourTotal text-center text-info"></div>
+        <button type="button"  onclick="location.href='confirmation.html';" > Confirm booking</button>
+      </form>
+    </div>
+    </div>
+  
+  <div class="myFooter">
+    <p class="text-center">More information on <a target="_blank" href="about.html">#OurCompany</a></p>
+    <center><input class="button" type="button" onclick="location.href='index.html';" value="Return" /></center>
+  </div>
+  </body>
